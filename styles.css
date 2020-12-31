@@ -256,7 +256,7 @@ img {
 }
 
 .project-image {
-  height: calc(100% - 6.8rem);
+  height: 240px;
   width: 100%;
   object-fit: cover;
 }
