@@ -4,6 +4,8 @@
   --main-red: #be3144;
   --main-blue: #45567d;
   --main-gray: #303841;
+  --light-blue: #45567da8;
+  --light-red: #be3144a8;
 }
 
 /* Base reset */
@@ -178,7 +180,7 @@ img {
   border-radius: 30%;
   color: var(--main-white);
   padding: 10px;
-  background-color: var(--main-blue);
+  background-color: var(--light-blue);
 }
 
 #ab2 {
@@ -187,15 +189,15 @@ img {
   border-radius: 30%;
   color: var(--main-white);
   padding: 10px;
-  background-color: var(--main-blue);
+  background-color: var(--light-blue);
 }
 
 #ab1:hover {
-  background-color: var(--main-red);
+  background-color: var(--light-red);
 }
 
 #ab2:hover {
-  background-color: var(--main-red);
+  background-color: var(--light-red);
 }
 
 
