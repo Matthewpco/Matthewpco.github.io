@@ -326,6 +326,7 @@ img {
 
 .contact-section-header > h2 {
   font-size: 6rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 28.75em) {
@@ -336,6 +337,7 @@ img {
 
 .contact-section-header > p {
   font-style: italic;
+  
 }
 
 .contact-p {
