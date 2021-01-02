@@ -193,16 +193,17 @@ img {
 #ab1 {
   margin: 10px;
   border: solid 3px #f0f0f0;
-  border-radius: 20%;
+  border-radius: 10px;
   color: var(--main-white);
   padding: 10px;
   background-color: var(--light-blue);
+
 }
 
 #ab2 {
   margin: 10px;
   border: solid 3px #f0f0f0;
-  border-radius: 20%;
+  border-radius: 10px;
   color: var(--main-white);
   padding: 10px;
   background-color: var(--light-blue);
@@ -210,10 +211,14 @@ img {
 
 #ab1:hover {
   background-color: var(--light-red);
+  transition: background 0.3s ease-out;
+
 }
 
 #ab2:hover {
   background-color: var(--light-red);
+  transition: background 0.3s ease-out;
+
 }
 
 
@@ -277,17 +282,25 @@ img {
   height: 220px;
   width: 100%;
   object-fit: fill;
+  border-radius: 3px;
+  
 }
 
 .project-title {
   font-size: 2rem;
   padding: 2rem 0.5rem;
+  
+}
+
+.project-tile {
+  border-radius: 3px;
 }
 
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
+  border-radius: 10px;
 }
 
 .btn-show-all {
