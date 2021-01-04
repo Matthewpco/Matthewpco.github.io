@@ -28,7 +28,7 @@ html {
    * default document font size = 16px, 1rem = 16px, 100% = 16px
    * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
   */
-  font-size: 62.5%;
+  font-size: 80%;
   scroll-behavior: smooth;
 }
 
@@ -186,7 +186,7 @@ img {
   color: #be3144;
   display: inline-flex;
   margin-top: 35px;
-  font-size: 2rem;
+  font-size: 2.2rem;
 
 }
 
@@ -221,6 +221,18 @@ img {
 
 }
 
+.icons {
+  font-size: 7rem;
+  margin-top: 30px;
+}
+
+
+.icons2 {
+  font-size: 7rem;
+  padding: 10px;
+}
+
+
 
 /* Projects section */
 
@@ -245,8 +257,8 @@ img {
 /* "Automagic" image grid using no media queries */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-gap: 3rem;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
@@ -279,7 +291,6 @@ img {
 }
 
 .project-image {
-  height: 220px;
   width: 100%;
   object-fit: fill;
   border-radius: 3px;
