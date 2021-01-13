@@ -19,4 +19,4 @@
 
 <br>
 
-![](https://gist.githubusercontent.com/Matthewpco/11e131e2eb623e255968e46e0e93788d/raw/2a760e54ee1d4d86ef7ca90e531106376c2ad087/Mockup.png)
+![](https://github.com/Matthewpco/Matthewpco.github.io/blob/main/gifs/social-media-project.png?raw=true)
