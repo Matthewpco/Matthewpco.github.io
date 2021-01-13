@@ -124,7 +124,7 @@ nav li {
 }
 
 .header-secure {
-    width: 40%;
+    width: 35%;
     display: inline-block;
     padding-left: 30px;
 }
@@ -144,7 +144,7 @@ nav li {
 
 
 .top-area {
-    background: url(/img/p2.jpg) no-repeat center center;
+    background: url(https://github.com/Matthewpco/FB-Mocklup/blob/master/img/p2.jpg?raw=true) no-repeat center center;
     padding-top: 200px;
     padding-left: 60px;
     padding-bottom: 50px;
