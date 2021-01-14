@@ -1,6 +1,6 @@
 ![finance](https://raw.githubusercontent.com/Matthewpco/Matthewpco.github.io/main/gifs/dev-site-gif.gif)
 
-# This is CS50 Final! A Responsive Developer Web Site Showcasing recent projects.
+# This is my Responsive Developer Web Site Showcasing recent projects.
 ### Final project from [ Harvard's Introduction to Computer Science CS50. ](https://www.edx.org/course/cs50s-introduction-to-computer-science) The first course of a two part, 24-week program in [Professional Web Programming.](https://www.edx.org/professional-certificate/harvardx-computer-science-for-web-programming) 
 
 <br>
@@ -19,7 +19,7 @@
 - Back-End
     - Javascript
     - Python
-    - SQLite
+    - SQL
 
 <br>
 
@@ -37,5 +37,3 @@
 - Utilizing Werkzeug for security and password hashing
 - Parsing data from API's and SQL queries.
 - In-depth learning and use of common database CRUD operations (Create, Read, Update, Delete)
-
-<br>
