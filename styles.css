@@ -402,11 +402,13 @@ img {
 .notion-1 {
   width: 30%;
   margin: 1%;
+  border-radius: 3px;
 }
 
 .notion-2 {
   width: 30%;
   margin: 1%;
+  border-radius: 3px;
 }
 
 /* Footer */
