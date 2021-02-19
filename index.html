@@ -1,156 +1,218 @@
-<link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-  crossorigin="anonymous"
-/>
-<link 
-rel="stylesheet" 
-href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-<link rel="stylesheet" href="styles.css" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" />
-<!-- NAVIGATION -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous"
+            />
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" type="text/css">
+        <title>Jubilee Design | Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="full-width">
+                
+                <div class="half-width">
+                    <h1>Business Dev Solutions</h1>
+                    <h2><span>Hi,</span> I'm a developer that loves clean &amp; elegant code.</h2>
+                </div>
+                <div class="half-width">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#work">Work</a>
+                            </li>
+                            <li>
+                                <a href="#projects">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="about">
+                <div class="full-width">
+                    <h2>A little about me</h2>
+                    <div class="half-width">
+                        <!--<p>I've made my home base in Providence, Rhode Island, with my small growing family. My journey into tech started with a degree in journalism. As I started sharing my writing online, I was fascinated with how easily I could get my voice out there. I was hooked and wanted to learn how to build my own site to fit my own specific needs.</p>-->
+                        <p>I've made my home base in Boulder, Colorado where I enjoy hiking the Rocky Mountains with my wife. My journey into tech started as a child with a love for video games, puzzle solving, and the dazzling array of sights and sounds. As I coded my first pong game in C#, I was hooked on the unlimited possibilites of development.  </p>
+                    </div>
+                    <div class="half-width">
+                        <!--<p>That curiosity then opened a door that could never be shut. When I learned how to build my first website, I realized I found something that gave me the freedom & versatility I was looking for in my work. Now I've made a full switch to front-end development, where I can use my organization skills and eye for detail to write clean, elegant code.</p>-->
+                        <p>That curiosity opened a door that would lead me to study Computer Science in-depth at Harvard, and later Graphic Design at the University of Boulder. Now I have come full circle from learning the same design and development skills that first inspired me as a child, to building projects with an eye for detail, thoughtful design, and clean code.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="work">
+                <div class="full-width">
+                    <div class="third-width">
+                        <img src="img/html-icon.png" alt="HTML Icon"/>
+                        <h3>Hand-Coded HTML</h3>
+                        <p>My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
+                    </div>
+                    <div class="third-width">
+                        <img src="img/css-icon.png" alt="CSS Icon"/>
+                        <h3>Well-Organized CSS</h3>
+                        <p>I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
+                    </div>
+                    <div class="third-width">
+                        <img src="img/pencil-icon.png" alt="Pencil Icon"/>
+                        <h3>Ease Converting Designs Into Code</h3>
+                        <p>You can trust me to take a designer's PSD and quickly & accurately convert it into a webpage that is a pixel-perfect match, or design a new site entirely from scratch.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="projects-section">
 
-
-<nav id="navbar" class="nav">
-  <div id="nav-logo"> Business Development Solutions </div>
-  <ul class="nav-list">
-    <li><a href="#welcome">About</a></li>
-    <li><a href="#projects">Work</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <!--<a href="Resources/Resume.pdf" download><li class="delayed-fade-in-left delay-5 resume-download">Resume<i class="fas fa-download" id="resume-download-button"></i></li></a> -->
-  </ul>
-</nav>
-
-
-<!-- WELCOME SECTION -->
-   
-
-<section id="welcome" class="welcome-section">
-  <h1 class="animate__animated animate__backInDown">Hi I am Matthew</h1>
-  <p id="pspecial"> Front-End Developer </p>
-  <p class="welcome-p"> Custom Websites, Themes, Plugins, SEO, & Content Mangement.  </p>
-  <span class="ab">
-  <div class="animate__animated animate__fadeInTopLeft" id="ab1" >
-    <a href="#projects"> Projects </a>
-  </div>
-  <div class="animate__animated animate__fadeInTopRight" id="ab2">
-    <a href="#contact"> Contact </a>
-  </div>
-</span>
-<div class="icons">
-  <i class="fab fa-html5"></i>
-  <i class="fab fa-css3-alt"></i>
-  <i class="fab fa-js-square"></i>
-  <i class="fab fa-react"></i>
-  <i class="fab fa-wordpress"></i>
-  <i class="fab fa-php"></i>
+                    <h2 class="projects-section-header"> Project Portfolio </h2>
   
-</div>
-</section>
+                    <div class="projects-grid">
 
+                        <a href="https://matthewpco.github.io/FB-Mocklup/" target="_blank" class="project project-tile">
+                            <img class="project-image" src="img/FB-mockup.png" alt="Project"/>
+                            <p class="project-title" > 
+                                <span class="code">&lt;</span>
+                                Social Media Page 
+                                <span class="code">&#47;&gt;</span>
+                                </p>
+                        
+                        <a href="https://github.com/Matthewpco/CS50-Web-Final" target="_blank" class="project project-tile">
+                    <img class="project-image" src="img/CS50indexwebp.webp" alt="Project"/>
+                    <p class="project-title" > 
+                        <span class="code">&lt;</span>
+                        Full-Stack Finance App
+                        <span class="code">&#47;&gt;</span>
+                        </p>
+                        </a>
+                        
+                        <a href="https://matthewpco.github.io/CustomerSurvey/" target="_blank" class="project project-tile">
+                            <img class="project-image" src="img/SatSurveywebp.webp" alt="Project"/>
+                            <p class="project-title" > 
+                                <span class="code">&lt;</span>
+                                Satisfaction Survey
+                                <span class="code">&#47;&gt;</span>
+                                </p>
+                                </a>
 
+                                <a href="https://matthewpco.github.io/Greene-Photo-Site/" target="_blank" class="project project-tile">
+                                    <img class="project-image" src="img/RGP-Site2.png" alt="Project"/>
+                                    <p class="project-title" > 
+                                        <span class="code">&lt;</span>
+                                        Greene Photography
+                                        <span class="code">&#47;&gt;</span>
+                                        </p>
+                                
+                                <a href="https://github.com/Matthewpco/Wordpress-Earthtohome" target="_blank" class="project project-tile">
+                            <img class="project-image" src="img/eth-ss1.png" alt="Project"/>
+                            <p class="project-title" > 
+                                <span class="code">&lt;</span>
+                                WP Earth-to-Home
+                                <span class="code">&#47;&gt;</span>
+                                </p>
+                                </a>
+                                
+                                <a href="https://github.com/Matthewpco/Matthewpco.github.io" target="_blank" class="project project-tile">
+                                    <img class="project-image" src="img/Devsite-ss.png" alt="Project"/>
+                                    <p class="project-title" > 
+                                        <span class="code">&lt;</span>
+                                        Business Dev Solutions
+                                        <span class="code">&#47;&gt;</span>
+                                        </p>
+                                        </a>
 
-<!-- PROJECT SECTION -->
-    
+                                        <a href="https://matthewpco.github.io/Rogue-Pickings/" target="_blank" class="project project-tile">
+                                            <img class="project-image" src="https://github.com/Matthewpco/Rogue-Pickings/blob/master/img/rp-ss2.png?raw=true" alt="Project"/>
+                                            <p class="project-title" > 
+                                                <span class="code">&lt;</span>
+                                                Rogue Pickings
+                                                <span class="code">&#47;&gt;</span>
+                                                </p>
+                                        
+                                        <a href="https://github.com/Matthewpco/WP-Designer-Theme" target="_blank" class="project project-tile">
+                                    <img class="project-image" src="https://raw.githubusercontent.com/Matthewpco/WordPress-Portfolio/master/img/WP-portfolio-ss1.png" alt="Project"/>
+                                    <p class="project-title" > 
+                                        <span class="code">&lt;</span>
+                                        WP Designer Theme
+                                        <span class="code">&#47;&gt;</span>
+                                        </p>
+                                        </a>
+                                        
+                                        <a href="https://github.com/Matthewpco/WP-AccelMarketing" target="_blank" class="project project-tile">
+                                            <img class="project-image" src="https://raw.githubusercontent.com/Matthewpco/WP-AccelMarketing/master/wp-content/themes/accelerate-theme-child/img/accel-ss2.png" alt="Project"/>
+                                            <p class="project-title" > 
+                                                <span class="code">&lt;</span>
+                                                WP Accelerate Marketing
+                                                <span class="code">&#47;&gt;</span>
+                                                </p>
+                                                </a>
 
-<section id="projects" class="projects-section">
+                                
+                    <!--  <a href="https://github.com/Matthewpco/ITOpsSite" target="_blank" class="project project-tile">
+                    <img class="project-image" src="https://raw.githubusercontent.com/Matthewpco/Matthewpco.github.io/main/gifs/ITops-site-gif.gif" alt="Project"/>
+                    <p class="project-title" > 
+                        <span class="code">&lt;</span>
+                        IT Operations Site
+                        <span class="code">&#47;&gt;</span>
+                        </p>
+                        </a>
+                        <a href="https://gist.github.com/Matthewpco/52fcd0b4a516250fc99444b6545e63f8" target="_blank" class="project project-tile">
+                        <img class="project-image" src="https://gist.githubusercontent.com/Matthewpco/52fcd0b4a516250fc99444b6545e63f8/raw/85e1f217fa40ea26520870326137bce9105853d5/UNLegal-site-image.png" alt="Project"/>
+                        <p class="project-title" > 
+                            <span class="code">&lt;</span>
+                            UN Documentation Site
+                            <span class="code">&#47;&gt;</span>
+                            </p>
+                            </a>
+                        <a href="https://github.com/Matthewpco/Matthewpco.github.io" target="_blank" class="project project-tile">
+                    <img class="project-image" src="https://raw.githubusercontent.com/Matthewpco/Matthewpco.github.io/main/gifs/dev-site-gif.gif" alt="Project"/>
+                    <p class="project-title" > 
+                        <span class="code">&lt;</span>
+                        Developer Site
+                        <span class="code">&#47;&gt;</span>
+                        </p>
+                        </a>
+                        -->
+                        
+                            </div>
+                    
+                    <a href="https://github.com/Matthewpco" class="btn btn-show-all" target="_blank"> Show All <i class="fas fa-chevron-right" id="chevron"></i></a>
 
-  <h2 class="projects-section-header"> Project Portfolio </h2>
-  
-  <div class="projects-grid">
-       <a href="https://github.com/Matthewpco/CS50-Web-Final" target="_blank" class="project project-tile">
-  <img class="project-image" src="/gifs/CS50indexwebp.webp" alt="Project"/>
-  <p class="project-title" > 
-    <span class="code">&lt;</span>
-    Full-Stack Finance App
-    <span class="code">&#47;&gt;</span>
-    </p>
-    </a>
-    <a href="https://matthewpco.github.io/CustomerSurvey/" target="_blank" class="project project-tile">
-  <img class="project-image" src="/gifs/SatSurveywebp.webp" alt="Project"/>
-  <p class="project-title" > 
-    <span class="code">&lt;</span>
-    Satisfaction Survey
-    <span class="code">&#47;&gt;</span>
-    </p>
-    </a>
-    <a href="https://matthewpco.github.io/FB-Mocklup/" target="_blank" class="project project-tile">
-  <img class="project-image" src="gifs/FB-mockup.png" alt="Project"/>
-  <p class="project-title" > 
-    <span class="code">&lt;</span>
-    Facebook Mockup 
-    <span class="code">&#47;&gt;</span>
-    </p>
-  <!--  <a href="https://github.com/Matthewpco/ITOpsSite" target="_blank" class="project project-tile">
-  <img class="project-image" src="https://raw.githubusercontent.com/Matthewpco/Matthewpco.github.io/main/gifs/ITops-site-gif.gif" alt="Project"/>
-  <p class="project-title" > 
-    <span class="code">&lt;</span>
-    IT Operations Site
-    <span class="code">&#47;&gt;</span>
-    </p>
-    </a>
-    <a href="https://gist.github.com/Matthewpco/52fcd0b4a516250fc99444b6545e63f8" target="_blank" class="project project-tile">
-      <img class="project-image" src="https://gist.githubusercontent.com/Matthewpco/52fcd0b4a516250fc99444b6545e63f8/raw/85e1f217fa40ea26520870326137bce9105853d5/UNLegal-site-image.png" alt="Project"/>
-      <p class="project-title" > 
-        <span class="code">&lt;</span>
-        UN Documentation Site
-        <span class="code">&#47;&gt;</span>
-        </p>
-        </a>
-    <a href="https://github.com/Matthewpco/Matthewpco.github.io" target="_blank" class="project project-tile">
-  <img class="project-image" src="https://raw.githubusercontent.com/Matthewpco/Matthewpco.github.io/main/gifs/dev-site-gif.gif" alt="Project"/>
-  <p class="project-title" > 
-    <span class="code">&lt;</span>
-    Developer Site
-    <span class="code">&#47;&gt;</span>
-    </p>
-    </a>
-    -->
-    
-         </div>
-  
-  <a href="https://github.com/Matthewpco" class="btn btn-show-all" target="_blank"> Show All <i class="fas fa-chevron-right"></i></a>
-  </section>
-
-
-<!-- CONTACT SECTION -->
-
-
-<section id="contact" class="contact-section">
-  <div class="contact-section-header">
-    <h2 class="contact-section-header"> Clear Communication, Measured Results.</h2>
-
-    <div class="notion">
-      <div class="notion-1">
-        <img src="/gifs/reporting2.png" />
-      </div>
-      <div class="notion-2">
-        <img src="/gifs/reporting.png" />
-      </div>
-      
-    </div>
-
-    <p class="contact-p"> I am a results driven problem solver able to communicate complex issues and develop consistent solutions. </p>
-    <br>
-    <p> Call now for a free consultation 303-819-7128</p>
-  </div>
-  <div class="contact-links">
-    <a id="profile-link" href="https://github.com/Matthewpco" target="_blank" class="btn contact-details"
-       ><i class="fab fa-github"> </i> GitHub </a>
-        <a href="mailto:Matthewpco86@gmail.com" target="_blank" class="btn contact-details"
-       ><i class="fas fa-at"> </i> Email </a>
-        <a href="tel:303-819-7128" target="_blank" class="btn contact-details"
-       ><i class="fas fa-mobile-alt"> </i> Call me </a>
-</section>
-
-
-<!-- FOOTER SECTION -->
-
-
-<footer>
-  
-  <p> Copyright 2020 : Business Development Solutions </p>
-
-  </footer>
+            </section>
+            <footer id="contact">
+                <div class="full-width">
+                    <div class="half-width">
+                        <img src="img/contact-image.png" id="contact-img" alt="Person at computer desk working"/>
+                    </div>
+                    <div class="half-width">
+                        <h2>Like what you see?</h2>
+                        <h3 id="email-header">Let's set up a time to meet</h3>
+                        <a href="mailto:Matthewpco86@gmail.com"><img src="img/envelope.png" id="envelope"
+                            alt="Envelope icon" />Matthewpco86 [@] gmail.com</a>
+                        <h3 id="socialmedia-header">Or, find me on the interwebs</h3>
+                        <ul>
+                            <!--<li><a href="www.twitter.com"><img src="img/twitter.png" alt="Twitter icon"/></a></li>
+                            <li><a href="www.tumblr.com"><img src="img/tumblr.png" alt="tumblr icon"/></a></li>
+                            <li><a href="www.instagram.com"><img src="img/instagram.png" alt="instagram icon"/></a></li>-->
+                            <li><a href="https://www.linkedin.com/in/matthewpco/"><img src="img/linkedin.png" alt="linkedin icon"/></a></li>
+                            <li><a href="https://github.com/Matthewpco"><img src="img/github.png" alt="github icon"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
