@@ -47,12 +47,12 @@ header h1 {
     padding:  65px 0 65px 25px;
     font-family: 'Lora', serif;
     color: #bbc085;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 nav {
     float: right;
-    padding: 75px 20px;
+    padding: 80px 20px;
 }
 
 nav ul li {
